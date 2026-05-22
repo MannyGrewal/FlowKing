@@ -14,7 +14,7 @@
 4. Select a solution from the picker — Flow King loads and parses every modern Power Automate flow in that solution.
 
 > *Screenshot — Solution picker dialog*
-![Pick Solution](1.png)
+![Pick Solution](1.PNG)
 
 ---
 
@@ -60,7 +60,7 @@ Each card shows:
 Nested branches (Yes/No paths, loop bodies) are indented inline so the full logic is visible without scrolling between tabs.
 
 > *Screenshot  — Plain English cards for a multi-step flow*
-![Pick Solution](2.png)
+![Pick Solution](2.PNG)
 ---
 
 ### Flow Diagram
@@ -75,7 +75,7 @@ The **Flow Diagram** tab renders an interactive flowchart using Mermaid, showing
 - **Purple** — child flow calls
 
 > *Screenshot  — Flowchart for an automated flow*
-![Pick Solution](3.png)
+![Pick Solution](3.PNG)
 ---
 
 ### Sequence Diagram
@@ -85,7 +85,7 @@ The **Sequence Diagram** tab shows the same flow as a participant timeline — i
 Numbered sequence steps make it easy to walk through the flow in order during a code review or handover session.
 
 > *Screenshot — Sequence diagram with Dataverse and caller participants*
-![Pick Solution](4.png)
+![Pick Solution](4.PNG)
 ---
 
 ## Page 2 — Analysis Tabs, Search & Health
@@ -119,7 +119,7 @@ A parsed breakdown of every Dataverse table this flow touches, the operations pe
 This is the fastest way to answer: *"What tables does this flow touch?"* and *"Which fields are being written?"*
 
 > *Screenshot — Dependencies and Entities & Fields split view*
-![Pick Solution](5.png)
+![Pick Solution](5.PNG)
 ---
 
 ### Issues & Health Checks
@@ -135,7 +135,7 @@ The **Issues** tab runs automated health checks against every flow and flags pro
 Each issue includes a **Title**, **Description**, and **Suggested Fix** so developers know exactly what to change.
 
 > *Screenshot  — Issues grid showing critical and warning rows*
-![Pick Solution](6.png)
+![Pick Solution](6.PNG)
 ---
 
 ### Search
