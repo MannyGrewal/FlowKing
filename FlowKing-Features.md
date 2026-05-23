@@ -171,6 +171,25 @@ The toolbar also displays the **author section** on the right side, linking to t
 - Microsoft Edge WebView2 Runtime (for diagram and search views)
 - A Dataverse / Dynamics 365 connection configured in XrmToolBox
 
+## v1.0.5
+
+### By Entity tab — redesigned
+- Left panel now lists **entities** instead of flows
+- Trigger entities (those that fire an Automated flow) are shown first with a ⚡ indicator, sorted A–Z; used-only entities follow
+- Selecting an entity shows two tables on the right:
+  - **Triggered Flows** — Automated flows that fire when this entity changes
+  - **Flows That Use This Entity** — all flows that read, create, update, or delete records of this type, with the operations and fields listed
+
+### Child Flows tab
+- New tab showing only flows that are called as child flows by other flows in the loaded solution
+- Selecting a child flow shows the full list of parent flows that call it, with their trigger type
+
+### Flow step display improvements
+- Step names no longer end with a trailing `?` (affected condition steps and some field-derived names)
+- "Call child flow" steps now show the actual child flow name instead of the internal action name
+- Single `Compose`, `Set Variable`, and standalone `Initialize Variable` steps are hidden from all views — they are implementation noise. Back-to-back variable initialisation groups are still shown
+- Single-word steps with no description (e.g. `Scope`, `Switch`) are suppressed from the Plain English, Diagram, and Sequence views
+
 ---
 
 *Flow King — built for Power Platform developers who need the big picture fast.*
