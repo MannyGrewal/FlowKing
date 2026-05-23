@@ -121,6 +121,13 @@ This is the fastest way to answer: *"What tables does this flow touch?"* and *"W
 > *Screenshot — Dependencies and Entities & Fields split view*
 ![Pick Solution](5.PNG)
 ---
+## Page 3 — By Entity
+This shows which flows are being triggered by which flows. Also which flows use/change an entity
+![Pick Solution](9.PNG)
+
+## Page 4 — By Entity
+See who calls your child flows
+![Pick Solution](10.PNG)
 
 ### Issues & Health Checks
 
